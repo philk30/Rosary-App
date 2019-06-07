@@ -69,7 +69,7 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate {
             WKInterfaceDevice.current().play(.directionDown)
         }
         
-        switch value{
+        switch value{ 
             
         case Int.min..<0:
             value = 0
